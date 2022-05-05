@@ -1,55 +1,9 @@
-# [Soft UI Design Django](https://appseed.us/product/django-soft-ui-design-system)
-
-**[Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system)** is a Premium Bootstrap 5 UI Kit designed by [Creative-Tim](https://bit.ly/3fKQZaL) designed for those who like bold elements and beautiful websites. **Soft UI Design System Django**  is a simple Django seed project provided by AppSeed with a modular codebase, database, authentication and deployment scripts - Features:
-
-<br />
-
-- `Up-to-date dependencies`
-- [SCSS compilation](#recompile-css) via **Gulp**
-- UI Kit: **Soft UI Design System** (Free Version) by **Creative-Tim**
-- `DB Tools`: SQLite Database, Django Native ORM
-- Session-Based Authentication, Forms validation
-- `Deployment`: Docker, Gunicorn / Nginx
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
-
-<br />
-
-> Links
-
-- 👉 [Soft UI Design Django](https://appseed.us/product/django-soft-ui-design-system) - Product page
-- 👉 [Soft UI Design Django](https://django-soft-ui-free.appseed-srv1.com/) - LIVE Demo
-- 👉 More [Django Apps](https://appseed.us/django) - provided by AppSeed 
-
-<br />
-
-## ✨ Quick Start in `Docker`
-
-> Get the code
-
-```bash
-$ git clone https://github.com/app-generator/django-soft-ui-design.git
-$ cd django-soft-ui-design
-```
-
-> Start the app in Docker
-
-```bash
-$ docker-compose up --build 
-```
-
-Visit `http://localhost:85` in your browser. The app should be up & running.
-
-<br />
-
-![Django Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-soft-ui-free/master/media/django-soft-ui-free-screen.png)
-
-<br />
 
 ## ✨ How to use it
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-soft-ui-design.git
+$ git clone ...
 $ cd django-soft-ui-design
 $
 $ # Virtualenv modules installation (Unix based systems)
@@ -233,15 +187,6 @@ Serving on http://localhost:8001
 
 Visit `http://localhost:8001` in your browser. The app should be up & running.
 
-<br />
-
-## ✨ [Soft UI Design System](https://appseed.us/ui-kit/soft-ui-design-system) - UI Kit
-
-Most complex and innovative Design System Made by Creative Tim. Soft UI Design System is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files and classes.
-
-You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Free Bootstrap 5 UK Kit is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.
-
-<br />
 
 ## ✨ Credits & Links
 
