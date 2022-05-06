@@ -88,113 +88,13 @@ The project is coded using a simple and intuitive structure presented bellow:
    |-- ************************************************************************
 ```
 
-<br />
-
-> The bootstrap flow
-
-- Django bootstrapper `manage.py` uses `core/settings.py` as the main configuration file
-- `core/settings.py` loads the app magic from `.env` file
-- Redirect the guest users to Login page
-- Unlock the pages served by *app* node for authenticated users
-
-<br />
-
-## ✨ Recompile CSS
-
-To recompile SCSS files, follow this setup:
-
-<br />
-
-**Step #1** - Install tools
-
-- [NodeJS](https://nodejs.org/en/) 12.x or higher
-- [Gulp](https://gulpjs.com/) - globally 
-    - `npm install -g gulp-cli`
-- [Yarn](https://yarnpkg.com/) (optional) 
-
-<br />
-
-**Step #2** - Change the working directory to `assets` folder
-
-```bash
-$ cd apps/static/assets
-```
-
-<br />
-
-**Step #3** - Install modules (this will create a classic `node_modules` directory)
-
-```bash
-$ npm install
-// OR
-$ yarn
-```
-
-<br />
-
-**Step #4** - Edit & Recompile SCSS files 
-
-```bash
-$ gulp scss
-```
-
-The generated file is saved in `static/assets/css` directory.
-
-<br /> 
-
-## ✨ Deployment
-
-The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
-
-### [Gunicorn](https://gunicorn.org/)
----
-
-Gunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX.
-
-> Install using pip
-
-```bash
-$ pip install gunicorn
-```
-> Start the app using gunicorn binary
-
-```bash
-$ gunicorn --bind=0.0.0.0:8001 core.wsgi:application
-Serving on http://localhost:8001
-```
-
-Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 
-<br />
-
-### [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/)
----
-
-Waitress (Gunicorn equivalent for Windows) is meant to be a production-quality pure-Python WSGI server with very acceptable performance. It has no dependencies except ones that live in the Python standard library.
-
-> Install using pip
-
-```bash
-$ pip install waitress
-```
-> Start the app using [waitress-serve](https://docs.pylonsproject.org/projects/waitress/en/stable/runner.html)
-
-```bash
-$ waitress-serve --port=8001 core.wsgi:application
-Serving on http://localhost:8001
-```
-
-Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 
-## ✨ Credits & Links
 
-- [Django](https://www.djangoproject.com/) - The official website
-- [Boilerplate Code](https://appseed.us/boilerplate-code) - Index provided by **AppSeed**
-- [Boilerplate Code](https://github.com/app-generator/boilerplate-code) - Index published on Github
 
-<br />
 
----
-[Soft UI Design Django](https://appseed.us/product/django-soft-ui-design-system) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+
+
+
