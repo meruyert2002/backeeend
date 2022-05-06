@@ -17,10 +17,10 @@ CORE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY', default='S#perS3crEt_1122')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default=True, cast=bool)
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 # load production server from .env
-ALLOWED_HOSTS        = ['localhost', 'localhost:85', '127.0.0.1', config('SERVER', default='127.0.0.1')]
+ALLOWED_HOSTS        = ['backendfinalproject1.herokuapp.com/', '127.0.0.1', config('SERVER', default='127.0.0.1')]
 CSRF_TRUSTED_ORIGINS = ['http://localhost:85', 'http://127.0.0.1', 'https://' + config('SERVER', default='127.0.0.1')]
 
 # Application definition
@@ -142,7 +142,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_PASSWORD = "1huJqwwvw2"
 
 
-# django_heroku.settings(locals())
+django_heroku.settings(locals())
 
 
 #############################################################
