@@ -20,7 +20,7 @@ SECRET_KEY = config('SECRET_KEY', default='S#perS3crEt_1122')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 # load production server from .env
-ALLOWED_HOSTS        = ['backfinproj2.herokuapp.com/', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS        = ['backproject22.herokuapp.com/', '127.0.0.1', 'localhost']
 # CSRF_TRUSTED_ORIGINS = ['http://localhost:85', 'http://127.0.0.1', 'https://' + config('SERVER', default='127.0.0.1')]
 
 # Application definition
